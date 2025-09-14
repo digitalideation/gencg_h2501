@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: The aesthetic of generative coding
+show_downloads: "true"
+plugins:
+  - jemoji
