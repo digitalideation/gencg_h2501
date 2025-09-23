@@ -90,28 +90,33 @@ Recreate a version of 10print in p5.js and create some variations
 
 ## Wrap-Up & Homework
 
-- Summarize key learnings.
-
 ## 📂 Deliverables
 
-- Documentation and thoughts on Computing without computers (photos, short analysis & take away from the games)
-- Code and documentation on Computing with computers, start writing about it in your journal, add some gifs.
-- Include a scan or photo of your drawings in the post(s).
+- Summarize key learnings.
+- Documentation and thoughts on today's work
+- Code and documentation, start writing about it in your journal.
+- Include scan or photos of your drawings in the post(s).
 
 ## 📓 Journal Prompts
 
-- How did analog rules compare to coding rules?
-- Where did ambiguity or randomness lead to surprising results?
-- Which historical examples inspired you?
-- What was difficult about setting up your environment?
+- How did your initial paper sketches influence your digital pattern? Did anything change in translation?
+- What strategies did you use to balance order and randomness in your grid or pattern?
+- Describe a moment when a mistake or unexpected result led to a new idea or direction.
+- How did you approach making your pattern "infinite" or seamlessly tileable? What challenges did you face?
+- How did working with code change your perception of artistic control compared to analog methods?
+- What did you learn about the relationship between simple rules and complex outcomes?
 
 ## 🗒️ To-Do for Next Week
 
-- ✅ Install and test **local p5.js setup** on your machine (VS Code + Live Server or similar).
-- ✅ Get familiar with the **journal workflow**:
-  - Make a test entry in your `journal/` branch.
-  - Practice adding images, code snippets, and reflections.
-- ✅ Bring a small generative sketch (analog or digital) to share in Lesson 02.
+- 📕 Browse [Vera Molnar's journals](../../readme.md#-resources)
+- ✅ Keep testing **local p5.js setup** on your machine (VS Code + Live Server or similar).
+- ✅ Keep getting familiar with the **journal workflow**:
+  - Create more test entry in your `journal/` branch.
+  - Customise you code snippets, etc...
+- ✅ Lear more about [Github Pages](https://docs.github.com/en/pages)
+- ❓ Test different workflows / notebooks:
+  - [Observable HQ](https://observablehq.com/@jonfroehlich/using-p5js-in-observable)
+  - [Obsidian](https://en.wikipedia.org/wiki/Obsidian)
 
 ## :pushpin: Resources
 
