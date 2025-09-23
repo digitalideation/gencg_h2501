@@ -121,6 +121,14 @@ We will use [**p5.js** ](https://p5js.org/) for the front end. It’s a high lev
 - [Three.js fundamentals](https://threejsfundamentals.org/) (articles)
 - [Three.js demos](https://three-demos.glitch.me/) (demo)
 
+#### Journaling + js editors
+
+- [Observable HQ](https://observablehq.com/@jonfroehlich/using-p5js-in-observable)
+- [Obsidian](https://en.wikipedia.org/wiki/Obsidian)
+- [Notion](https://notion.so/)
+- [P5 js editor](https://editor.p5js.org/)
+- [CodePen](https://codepen.io/)
+
 ### 🧑‍🎨 Inspirations
 
 - [fyprocessing](https://fyprocessing.tumblr.com/)

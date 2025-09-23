@@ -114,9 +114,10 @@ Recreate a version of 10print in p5.js and create some variations
   - Create more test entry in your `journal/` branch.
   - Customise you code snippets, etc...
 - ✅ Lear more about [Github Pages](https://docs.github.com/en/pages)
-- ❓ Test different workflows / notebooks:
+- ❓ Test different [workflows / notebooks](../../readme.md#journaling--js-editors):
   - [Observable HQ](https://observablehq.com/@jonfroehlich/using-p5js-in-observable)
   - [Obsidian](https://en.wikipedia.org/wiki/Obsidian)
+  - ...
 
 ## :pushpin: Resources
 
