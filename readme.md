@@ -72,20 +72,32 @@ During the class we will be looking at the core functions of p5.js and three.js,
 
 - Presentation + Source code + Documentation
 
-
 ## Tools
 
 We will use [**p5.js** ](https://p5js.org/) for the front end. It’s a high level creative programming framework with an [intuitive API](https://p5js.org/reference/). If some of you have used Processing before you should be confortable using p5.js.
 
-- :pencil2: [P5.js](https://p5js.org/)
-- :red_circle: [Three.js](https://threejs.org/)
-- :point_up_2: [TouchDesigner](https://derivative.ca/)
-- :flags: [Glitch](https://glitch.com/)
-- :computer: [Codepen](https://codepen.io/)
+- [P5.js](https://p5js.org/)
+- [Three.js](https://threejs.org/)
+- [TouchDesigner](https://derivative.ca/)
+- [Glitch](https://glitch.com/)
+- [Codepen](https://codepen.io/)
 
 ## References
 
-### :books: Resources
+### 📚 Resources
+
+#### General
+
+- **Vera Molnar Journal:** [Part01](./assets/pdf/vera_journal_01.pdf) - [Part02](./assets/pdf/vera_journal_02.pdf)
+- Notebook archives:
+  - [Notebook 01 - Maths / Shapes / Pattern / Agents (Ignore Setup & Basis)](./lessons/archives/notebook01.md)
+  - [Notebook 02 - Colors](./lessons/archives/notebook02.md)
+- [The coding train 🌈](https://thecodingtrain.com/) (course)
+- [Nature of code](https://natureofcode.com/book/) (book)
+- [Canvas demos](http://youpi.io) (demo)
+- [Webgl demos](https://github.com/mattdesl/workshop-webgl-glsl/) (demo)
+- [Designing programs](https://designingprograms.bitbucket.io/index.html) (course)
+- [Shaders tutorials](https://thebookofshaders.com/) (tutorials)
 
 #### P5
 
@@ -109,22 +121,12 @@ We will use [**p5.js** ](https://p5js.org/) for the front end. It’s a high lev
 - [Three.js fundamentals](https://threejsfundamentals.org/) (articles)
 - [Three.js demos](https://three-demos.glitch.me/) (demo)
 
-#### General
-
-- Vera Molnar Journal [Part01](../../assets/pdf/vera_journal_01.pdf) - [Part02](../../assets/pdf/vera_journal_02.pdf)
-- [The coding train :rainbow:](https://thecodingtrain.com/) (course)
-- [Nature of code](https://natureofcode.com/book/) (book)
-- [Canvas demos](http://youpi.io) (demo)
-- [Webgl demos](https://github.com/mattdesl/workshop-webgl-glsl/) (demo)
-- [Designing programs](https://designingprograms.bitbucket.io/index.html) (course)
-- [Shaders tutorials](https://thebookofshaders.com/) (tutorials)
-
-### :art: Inspirations
+### 🧑‍🎨 Inspirations
 
 - [fyprocessing](https://fyprocessing.tumblr.com/)
 - [Class Pinterest](https://www.pinterest.ch/9uill0m/generative-class/)
 
-### :bird: Who to follow
+### 🐦 Who to follow
 
 - [Manolo Gamboa Naon](https://www.behance.net/manoloide)
 - [Lia Something](https://twitter.com/liasomething)
@@ -134,7 +136,7 @@ We will use [**p5.js** ](https://p5js.org/) for the front end. It’s a high lev
 - [Lolo Armdz](https://twitter.com/loloarmdz)
 - [Generate Me](https://twitter.com/generateme_blog)
 - [Tim Rodenbroeker](https://twitter.com/timrodenbroeker)
-- [:honeybee::bomb:](https://twitter.com/beesandbombs)
+- [🐝💣](https://twitter.com/beesandbombs)
 - [Martin](https://twitter.com/qiuyinsen)
 - [Manoloide](https://twitter.com/manoloidee)
 - [Articulation copy (2)](https://twitter.com/mxsage)
@@ -148,7 +150,8 @@ We will use [**p5.js** ](https://p5js.org/) for the front end. It’s a high lev
 - [Daniel Shiffman](https://twitter.com/shiffman)
 - [Zach Lieberman](https://twitter.com/zachlieberman)
 
-### :space_invader: Other
+### 👾 Other
+
 - [Artnome - Blog on digital art](https://artnome.com)
 - [Big list of resources](https://github.com/terkelg/awesome-creative-coding)
 - [Useful Tips to generate infinite loops](https://www.youtube.com/watch?v=c6K-wJQ77yQ)
@@ -157,9 +160,6 @@ We will use [**p5.js** ](https://p5js.org/) for the front end. It’s a high lev
 - [Tumblr](https://30000fps.com/)
 - [Making noise](https://www.blog.drewcutchins.com/blog/2018-8-5-lets-make-some-noise)
 - [History](http://www.verostko.com/algorist.html)
-
-
-
 
 ## Academic integrity
 
