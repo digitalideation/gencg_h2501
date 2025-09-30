@@ -1,4 +1,4 @@
-# Day 02
+# Day 01
 
 ## Computing without computer
 
