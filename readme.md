@@ -24,20 +24,21 @@
 
 ---
 
-## 📅 Course Schedule (12 × 2.5h Lessons)
+## 📅 Course Schedule (14 × 2.5h Lessons)
 
 1. **[Lesson 01 - Introduction & Foundations](lessons/lesson01_intro/)** - Course intro, analog computing, p5.js setup
 2. **[Lesson 02 - Grids & Iterative Patterns](lessons/lesson02_grids/)** - Structured generative systems
 3. **[Lesson 03 - Clock / Time](lessons/lesson03_clock/)** - Generative representation of time
 4. **[Lesson 04 - Drawing Machines](lessons/lesson04_machines/)** - Generative systems as drawing tools
 5. **[Lesson 05 - Reflection / Collect / Prepare](lessons/lesson05_reflection/)** - Mid-course checkpoint
-6. **[Lesson 06 - Faces / Parametric Generators](lessons/lesson06_faces/)** - Parametric design through faces
-7. **[Lesson 07 - Pixels (Part 1)](lessons/lesson07_pixels1/)** - Pixels as material
-8. **[Lesson 08 - Pixels (Part 2)](lessons/lesson08_pixels2/)** - Advanced pixel transformations
-9. **[Lesson 09 - Advanced Composition / Mixed Media](lessons/lesson09_advanced/)** - 3D, spatial design, hybrid projects
-10. **[Lesson 10 - Integration & Experimentation](lessons/lesson10_integration/)** - Merge multiple techniques
-11. **[Lesson 11 - Final Project Workshop](lessons/lesson11_workshop/)** - Refinement and peer review
-12. **[Lesson 12 - Final Presentations & Critique](lessons/lesson12_presentation/)** - Sharing and evaluation
+6. **Lesson 06 - Faces / Parametric Generators** - Parametric design through faces
+7. **Lesson 07 - Pixels (Part 1)** - Pixels as material
+8. **Lesson 08 or 09** - Second checkpoint
+8. **Lesson .. - Pixels (Part 2)** - Advanced pixel transformations
+9. **Lesson .. - Advanced Composition / Mixed Media** - 3D, spatial design, hybrid projects
+10. **Lesson .. - Integration & Experimentation** - Merge multiple techniques
+11. **Lesson .. - Final Project Workshop** - Refinement and peer review
+12. **Lesson .. - Final Presentations & Critique** - Sharing and evaluation
 
 ---
 
@@ -51,26 +52,56 @@ During the class we will be looking at the core functions of p5.js and three.js,
 
 ## Class
 
-### Learning objectives:
+### 1. What you are going to learn
 
-- Learn techniques of "generative art"
-- Get to know the history and artists
-- Document and communicate your ideas
+**Professional competences:**
 
-### Goals:
+- Understand techniques and history of generative art
+- Know the work of key generative artists (Molnár, etc.)
+- Understand algorithmic thinking and creative coding principles
 
-- Create original artwork(s)
-- Write a journal describing your journey
+**Methodological competences:**
 
-### Evaluation criteria:
+- Can use p5.js/three.js (or other) to create generative systems
+- Can document creative and technical processes effectively
+- Can iterate and refine artistic ideas through code
 
-- Attendance, participation and engagement in others' projects (1/3)
-- Research, Documentation (1/3)
-- Final Project (1/3)
+**Personal competences:**
 
-### Deliverables:
+- Can critically analyze generative artworks
+- Can articulate creative decisions and artistic vision
+- Can engage constructively with peers' work
 
-- Presentation + Source code + Documentation
+### 2. Evaluation criteria
+
+This replaces/expands your current brief "Evaluation criteria" into:
+
+**The Journal (40%)**
+
+- Weekly entries documenting exploration, thinking, influences
+- Components: sketches, code iterations, reflections, references
+
+**Participation & Engagement (30%)**
+
+- Attendance, in-class exercises, peer feedback
+
+**Final Project (30%)**
+
+- Original generative artwork + presentation + documentation
+
+### 3. The Journal - Detailed Breakdown
+
+[Read this for details information on "how to journal" and the detailled requirements for the journal.](./lessons/extra/journal.md)
+
+### 4. Timeline
+
+- **Week 1**: First entry, setting up journal structure
+- **Weeks 2-4**: Building weekly documentation habit
+- **Week 5 (Lesson 05)**: **Mid-term journal review** + group feedback session
+- **Weeks 6-7**: Continued weekly documentation
+- **Week 8 or 9:** **Secondary journal review**
+- **Weeks 10-13**: Continued weekly documentation
+- **Week 14**: **Final presentation** Final entry reflecting on entire semester journey
 
 ## Tools
 
