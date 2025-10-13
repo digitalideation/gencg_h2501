@@ -3,13 +3,11 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/webslides/webslides.svg?style=social)](https://twitter.com/digideation)
 
-[★★★ This repository is published here ★★★](https://digitalideation.github.io/gencg_h2501/)
-
 ## 📂 Repository Structure
 
 ### 📚 Lessons
 
-- [`lessons/`](lessons/) - Contains all 12 lessons with structured content
+- [`lessons/`](lessons/) - Contains all 14 lessons with structured content
   - Each lesson includes: README.md, code/, docs/ (with images), and specific subfolders
   - Lessons 01-12 follow the canonical course schedule
 
@@ -29,16 +27,16 @@
 1. **[Lesson 01 - Introduction & Foundations](lessons/lesson01_intro/)** - Course intro, analog computing, p5.js setup
 2. **[Lesson 02 - Grids & Iterative Patterns](lessons/lesson02_grids/)** - Structured generative systems
 3. **[Lesson 03 - Clock / Time](lessons/lesson03_clock/)** - Generative representation of time
-4. **[Lesson 04 - Drawing Machines](lessons/lesson04_machines/)** - Generative systems as drawing tools
-5. **[Lesson 05 - Reflection / Collect / Prepare](lessons/lesson05_reflection/)** - Mid-course checkpoint
+4. **[Lesson 04 - Drawing Machines](#/)** - Generative systems as drawing tools
+5. **[Lesson 05 - Reflection / Collect / Prepare](#/)** - Mid-course checkpoint
 6. **Lesson 06 - Faces / Parametric Generators** - Parametric design through faces
 7. **Lesson 07 - Pixels (Part 1)** - Pixels as material
 8. **Lesson 08 or 09** - Second checkpoint
-8. **Lesson .. - Pixels (Part 2)** - Advanced pixel transformations
-9. **Lesson .. - Advanced Composition / Mixed Media** - 3D, spatial design, hybrid projects
-10. **Lesson .. - Integration & Experimentation** - Merge multiple techniques
-11. **Lesson .. - Final Project Workshop** - Refinement and peer review
-12. **Lesson .. - Final Presentations & Critique** - Sharing and evaluation
+9. **Lesson .. - Pixels (Part 2)** - Advanced pixel transformations
+10. **Lesson .. - Advanced Composition / Mixed Media** - 3D, spatial design, hybrid projects
+11. **Lesson .. - Integration & Experimentation** - Merge multiple techniques
+12. **Lesson .. - Final Project Workshop** - Refinement and peer review
+13. **Lesson .. - Final Presentations & Critique** - Sharing and evaluation
 
 ---
 
