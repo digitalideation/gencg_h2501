@@ -74,8 +74,6 @@ During the class we will be looking at the core functions of p5.js and three.js,
 
 ### 2. Evaluation criteria
 
-This replaces/expands your current brief "Evaluation criteria" into:
-
 **The Journal (40%)**
 
 - Weekly entries documenting exploration, thinking, influences
