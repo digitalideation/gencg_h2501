@@ -9,7 +9,7 @@
 
 - [`lessons/`](lessons/) - Contains all 14 lessons with structured content
   - Each lesson includes: README.md, code/, docs/ (with images), and specific subfolders
-  - Lessons 01-12 follow the canonical course schedule
+  - Lessons follow the canonical course schedule
 
 ### 📓 Journals
 
