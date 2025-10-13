@@ -13,7 +13,7 @@
 
 ### 📓 Journals
 
-- Switch to ghe branch `journal` to write your daily explorations.
+- Switch to the branch `journal` to write your daily explorations.
 
 ### 🎨 Assets & Slides
 
