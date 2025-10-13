@@ -4,7 +4,7 @@
 
 The journal is inspired by **Vera Molnár's practice** of documenting algorithmic thinking, artistic decisions, and creative exploration. Molnár, a pioneer of computer art, kept detailed notebooks where she worked out algorithmic processes by hand before having access to computers - developing what she called her "machine imaginaire" (imaginary machine).
 
-Like Molnár's journals ([Part 01](https://digitalideation.github.io/gencg_h2501/assets/pdf/vera_journal_01.pdf) | [Part 02](https://digitalideation.github.io/gencg_h2501/assets/pdf/vera_journal_02.pdf)), your journal is a **living document** that captures both your technical experiments and artistic thinking throughout the semester.
+Like Molnár's journals ([Part 01](https://digitalideation.github.io/gencg_h2501/assets/pdf/vera_journal_01.pdf) / [Part 02](https://digitalideation.github.io/gencg_h2501/assets/pdf/vera_journal_02.pdf)), your journal is a **living document** that captures both your technical experiments and artistic thinking throughout the semester.
 
 **Format:**
 
@@ -14,7 +14,7 @@ Like Molnár's journals ([Part 01](https://digitalideation.github.io/gencg_h2501
 - Weekly entries documenting your generative art journey
 
 <!-- Used for line break when printing pdf -->
-<div style="break-after: always;"></div>
+<div style="page-break-after: always;"></div>
 
 ## Purpose & Learning Goals
 
@@ -26,11 +26,13 @@ Through consistent journaling, you will develop:
 - **Developing critical reflection skills** to analyze your own creative decisions
 - **Understanding the creative process** as iterative and experimental
 
-<div style="break-after: always;"></div>
+<div style="page-break-after: always;"></div>
 
 ## What to Document - Weekly Entry Structure
 
 Each week's journal entry should include these four elements:
+
+<div style="page-break-after: always;"></div>
 
 ### a) Exploration & Experimentation
 
@@ -41,6 +43,8 @@ Each week's journal entry should include these four elements:
 
 _Example: "This week I experimented with nested loops to create grid patterns. I tried varying the spacing parameter from 10 to 50 pixels and noticed that below 20, the pattern becomes too dense..."_
 
+<div style="page-break-after: always;"></div>
+
 ### b) Influences & References
 
 - **Artists and artworks** that inspired your work this week
@@ -49,6 +53,8 @@ _Example: "This week I experimented with nested loops to create grid patterns. I
 - **Why these references matter** - how do they connect to your exploration?
 
 _Example: "Looking at Bridget Riley's op art pieces made me think about how repetition with slight variation creates visual rhythm. I tried to apply this principle using sine waves to modulate my grid spacing..."_
+
+<div style="page-break-after: always;"></div>
 
 ### c) Algorithmic Thinking
 
@@ -59,6 +65,8 @@ _Example: "Looking at Bridget Riley's op art pieces made me think about how repe
 
 _Example: "My system: For each cell in the grid, if the distance from center is greater than 100, draw a circle, otherwise draw a square. The size is determined by distance % 50..."_
 
+<div style="page-break-after: always;"></div>
+
 ### d) Critical Reflection
 
 - **What worked?** What surprised you?
@@ -68,6 +76,8 @@ _Example: "My system: For each cell in the grid, if the distance from center is 
 - **Next steps** - where is this heading?
 
 _Example: "The random color selection creates chaos, but maybe that's not what I want. Next week I'll explore using a limited color palette or color harmony rules. I'm also curious about how timing/animation could add another dimension..."_
+
+<div style="page-break-after: always;"></div>
 
 ## Format & Technical Requirements
 
@@ -109,6 +119,8 @@ journal/
     ...
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Tools & Platforms
 
 You are free to use any tools that support your journaling process. See the [Journaling + JS editors](#journaling--js-editors) section for recommended platforms and tools.
@@ -147,6 +159,8 @@ All students must submit their journal to **ILIAS** by the final deadline.
 - Use Are.na or Pinterest for collecting visual references, then cite in your journal
 - Sketch on paper, scan/photograph, and embed in your markdown files
 
+<div style="page-break-after: always;"></div>
+
 ## Evaluation Criteria for Journal (40% of final grade)
 
 Your journal will be evaluated based on the following criteria:
@@ -179,6 +193,8 @@ Your journal will be evaluated based on the following criteria:
 - **Proper citations** with links and credits
 - **Meaningful connections** between influences and your own work
 - **Diverse references** - exploring multiple artists, techniques, concepts
+
+<div style="page-break-after: always;"></div>
 
 ## Timeline & Milestones
 
@@ -221,6 +237,8 @@ Your journal will be evaluated based on the following criteria:
 
 - **Final journal entry** reflecting on entire semester journey
 - Complete journal submission as part of final deliverables
+
+<div style="page-break-after: always;"></div>
 
 ## Examples & Best Practices
 
@@ -278,6 +296,8 @@ Next week I want to explore:
 **Questions:** How can I make the variation feel intentional rather than
 arbitrary? What role does symmetry play in perceived order?
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Common Pitfalls to Avoid
 
@@ -337,6 +357,8 @@ arbitrary? What role does symmetry play in perceived order?
 
 - How does your work relate to generative art history?
 - What conversations in art/design does it engage with?
+
+<div style="page-break-after: always;"></div>
 
 ## Getting Started
 
