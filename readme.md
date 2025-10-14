@@ -7,7 +7,7 @@
 
 ### 📚 Lessons
 
-- [`lessons/`](lessons/) - Contains all 14 lessons with structured content
+- [`lessons/`](./lessons/) - Contains all 14 lessons with structured content
   - Each lesson includes: README.md, code/, docs/ (with images), and specific subfolders
   - Lessons follow the canonical course schedule
 
@@ -24,10 +24,10 @@
 
 ## 📅 Course Schedule (14 × 2.5h Lessons)
 
-1. **[Lesson 01 - Introduction & Foundations](lessons/lesson01_intro/)** - Course intro, analog computing, p5.js setup
-2. **[Lesson 02 - Grids & Iterative Patterns](lessons/lesson02_grids/)** - Structured generative systems
-3. **[Lesson 03 - Clock / Time](lessons/lesson03_clock/)** - Generative representation of time
-4. **[Lesson 04 - Drawing Machines](#/)** - Generative systems as drawing tools
+1. **[Lesson 01 - Introduction & Foundations](./lessons/lesson01_intro/)** - Course intro, analog computing, p5.js setup
+2. **[Lesson 02 - Grids & Iterative Patterns](./lessons/lesson02_grids/)** - Structured generative systems
+3. **[Lesson 03 - Clock / Time](./lessons/lesson03_clock/)** - Generative representation of time
+4. **[Lesson 04 - Drawing Machines](./lessons/lesson04_machines/)** - Generative systems as drawing tools
 5. **[Lesson 05 - Reflection / Collect / Prepare](#/)** - Mid-course checkpoint
 6. **Lesson 06 - Faces / Parametric Generators** - Parametric design through faces
 7. **Lesson 07 - Pixels (Part 1)** - Pixels as material
