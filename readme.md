@@ -1,11 +1,12 @@
 # Abdout Me
+
 <img src="{{ '/content/day01/personal.jpg' | relative_url }}"
      alt="Abdullah Barzinji"
      style="float:right; width:160px; border-radius:12px; margin:1 1 1rem 1rem;">
 
 
 
-## Computing without computer
+## Abdullah Barzinji
 
 ### Profile Summary
 
