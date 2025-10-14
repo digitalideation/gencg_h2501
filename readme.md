@@ -2,7 +2,7 @@
 
 <img src="{{ '/content/day01/personal.jpg' | relative_url }}"
      alt="Abdullah Barzinji"
-     style="float:right; width:220px; border-radius:12px; margin:0 0 1rem 1rem;">
+     style="float:right; width:160px; border-radius:12px; margin:0 0 1rem 1rem;">
 
 
 
