@@ -7,9 +7,11 @@
 
 ## Computing without computer
 
-### Sollewit: Wall drawing
+### Profile Summary
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Motivated and curious student of Immersive Technologies at the Lucerne University of Applied Sciences and Arts (HSLU), with a strong passion for 3D modeling, game design, C# programming, and Metaverse applications.
+Bringing solid professional experience in IT support (1st & 2nd level) and network engineering, I currently work as an Ambassador and Social Media Support at HSLU and as a Presenter for Immersive Technologies and the Metaverse at Stadthaus Zug.
+I combine technical expertise with creative curiosity to design and develop innovative, user-centered immersive experiences. Always eager to learn and open to new challenges, I strive to continuously expand my skills in XR, VR/AR, and interactive digital content.
 
 ![Example Image](content/day01/test.jpg)
 
