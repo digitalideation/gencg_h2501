@@ -39,6 +39,18 @@ Introduce participants to VR and AR concepts, tools, and current developments.
 
 Conduct training sessions for staff and interested groups on using virtual platforms and new media in culture and education.
 
+__________________________________________________________________________________________________________________
+
+🪩 Speaker & Trainer for Immersive Technologies and the Metaverse – Stadthaus Zug
+
+Zug, Switzerland | Part-time | Mar 2025 – Present
+
+Plan and deliver presentations and workshops on the Metaverse and immersive technologies.
+
+Introduce participants to VR and AR concepts, tools, and current developments.
+
+Conduct training sessions for staff and interested groups on using virtual platforms and new media in culture and education.
+
 ![Example Image](content/day01/test.jpeg)
 
 💼 Professional Experience
