@@ -41,15 +41,46 @@ Conduct training sessions for staff and interested groups on using virtual platf
 
 __________________________________________________________________________________________________________________
 
-🪩 Speaker & Trainer for Immersive Technologies and the Metaverse – Stadthaus Zug
+💻 IT Support Engineer (1st & 2nd Level) – Bechtle AG / Novartis
 
-Zug, Switzerland | Part-time | Mar 2025 – Present
+Rotkreuz, Switzerland | Full-time | Aug 2022 – Jun 2023
 
-Plan and deliver presentations and workshops on the Metaverse and immersive technologies.
+Performed onboarding and troubleshooting (software & hardware incidents) for Novartis employees.
 
-Introduce participants to VR and AR concepts, tools, and current developments.
+Managed ServiceNow tickets, printer & mobility support (iOS devices), and meeting-room systems.
 
-Conduct training sessions for staff and interested groups on using virtual platforms and new media in culture and education.
+Supported rollout projects, hardware installations, and system configurations.
+
+Utilized tools such as VPN, BitLocker, Intune, BYOD management, and CMT.
+
+__________________________________________________________________________________________________________________
+
+
+🌐 Freelance Network Engineer Support – Stechad / IP Global / Sysmetic / SSE
+
+Zürich & Basel, Switzerland | Part-time | Sep 2020 – Present
+
+Installed and maintained PCs, LAN/WAN clients, and server components.
+
+Diagnosed and resolved fiber-optic issues using OTDR tools.
+
+Built Wi-Fi bridges and configured access points to extend network coverage.
+
+Provided on-site and remote network troubleshooting.
+
+__________________________________________________________________________________________________________________
+
+❤️ Volunteer – Swiss Red Cross / Youth Red Cross (JRK)
+
+Zürich, Switzerland | Part-time | May 2019 – 2024
+
+Accompanied children and teenagers from asylum centers to educational and social activities.
+
+Organized community programs and contributed to improving inclusion projects.
+
+Collaborated with volunteers to foster intercultural understanding and teamwork.
+
+
 
 ![Example Image](content/day01/test.jpeg)
 
