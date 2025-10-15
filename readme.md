@@ -22,9 +22,7 @@ ________________________________________________________________________________
 Rotkreuz, Switzerland | Part-time | Oct 2024 – Present
 
 Manage user accounts and system settings, providing technical troubleshooting and support for internal staff and students.
-
 Initiate vendor orders, test software services, and support ongoing platform development.
-
 Collaborate with IT teams to ensure smooth system operations and user satisfaction.
 
 __________________________________________________________________________________________________________________
@@ -34,9 +32,7 @@ ________________________________________________________________________________
 Zug, Switzerland | Part-time | Mar 2025 – Present
 
 Plan and deliver presentations and workshops on the Metaverse and immersive technologies.
-
 Introduce participants to VR and AR concepts, tools, and current developments.
-
 Conduct training sessions for staff and interested groups on using virtual platforms and new media in culture and education.
 
 __________________________________________________________________________________________________________________
@@ -46,11 +42,8 @@ ________________________________________________________________________________
 Rotkreuz, Switzerland | Full-time | Aug 2022 – Jun 2023
 
 Performed onboarding and troubleshooting (software & hardware incidents) for Novartis employees.
-
 Managed ServiceNow tickets, printer & mobility support (iOS devices), and meeting-room systems.
-
 Supported rollout projects, hardware installations, and system configurations.
-
 Utilized tools such as VPN, BitLocker, Intune, BYOD management, and CMT.
 
 __________________________________________________________________________________________________________________
@@ -61,11 +54,8 @@ ________________________________________________________________________________
 Zürich & Basel, Switzerland | Part-time | Sep 2020 – Present
 
 Installed and maintained PCs, LAN/WAN clients, and server components.
-
 Diagnosed and resolved fiber-optic issues using OTDR tools.
-
 Built Wi-Fi bridges and configured access points to extend network coverage.
-
 Provided on-site and remote network troubleshooting.
 
 __________________________________________________________________________________________________________________
@@ -75,9 +65,7 @@ ________________________________________________________________________________
 Zürich, Switzerland | Part-time | May 2019 – 2024
 
 Accompanied children and teenagers from asylum centers to educational and social activities.
-
 Organized community programs and contributed to improving inclusion projects.
-
 Collaborated with volunteers to foster intercultural understanding and teamwork.
 
 
