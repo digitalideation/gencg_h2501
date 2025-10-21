@@ -1,14 +1,3 @@
-# Generative Computer Graphics
-
-
-## Grids and patterns
-
-{% raw %}
-<iframe src="content/day01/03/embed.html" width="100%" height="450" frameborder="no"></iframe>
-{% endraw %}
-
-
-```js
 /*
   p5.js 3D Anaglyph Effect 
   (for red / cyan glasses)
@@ -45,5 +34,4 @@ function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
     anaglyph.resize();
 }
-}
-```
+
