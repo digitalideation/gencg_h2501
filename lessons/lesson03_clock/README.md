@@ -68,7 +68,6 @@ The clock clock white by humans since 1982 + [A million time](https://www.humans
 !['Clock Clock'](images/clock_clock.jpg)
 
 {% raw %}
-
 <iframe src="https://player.vimeo.com/video/52798481?h=ba2c0cd8e2&color=ffffff" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/52798481">The clock clock white by humans since 1982</a> from <a href="https://vimeo.com/humanssince1982">Humans since 1982</a> on <a href="https://vimeo.com">Vimeo</a>.</p>  
 {% endraw %}
@@ -84,7 +83,6 @@ Christiaan postma explains that the starting point with his project ‘the clock
 A machine in the ceiling drip 0,5 gram of wax based hot glue every minute, at the same time the machine is rotating just like a hand in an analog clock. On the floor a stalagmite shape rises during time. [Project](https://www.albinkarlsson.com/1g-min/)
 
 {% raw %}
-
 <iframe src="https://player.vimeo.com/video/606592643?h=295f4680bd&title=0&byline=0" width="640" height="427" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/606592643">9-1.mp4</a> from <a href="https://vimeo.com/albinkarlsson">Albin Karlsson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>  
 {% endraw %}
@@ -122,7 +120,6 @@ And much, much more here --> [Golan Levin Lecture - Representing Time](https://g
 ### Example
 
 {% raw %}
-
 <iframe src="https://preview.p5js.org/guma/embed/yZYaRwKAz" width="100%" height="450" frameborder="no"></iframe>  
 {% endraw %}
 

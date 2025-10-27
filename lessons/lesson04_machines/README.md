@@ -129,7 +129,6 @@ The Wind Drawing Machines are installed in different locations to receive weathe
 Patrick Tresset is a Brussels-based artist who, in his work, explores human traits and the aspects of human experience. His work reflects recurrent ideas such as embodiment, passing time/time passing, childhood, conformism, obsessiveness, nervousness, the need for storytelling, and mark-making. He is best known for his performative installations using robotic agents as stylized actors that make marks and for his exploration of the drawing practice using computational systems and robots. ([youtube channel](https://www.youtube.com/c/PatrickTresset/videos))
 
 {% raw %}
-
 <iframe src="https://player.vimeo.com/video/19372180?h=c2c7041188&color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/19372180">Conductor: www.mta.me</a> from <a href="https://vimeo.com/alexanderchen">Alexander Chen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>  
 {% endraw %}
@@ -157,14 +156,12 @@ Do Not Draw a Penis functions as an agent to collect inappropriate doodles from 
 ### Example
 
 {% raw %}
-
 <iframe src="https://preview.p5js.org/guma/embed/gJAZwbKlG" width="100%" height="450" frameborder="no"></iframe>  
 {% endraw %}
 
 [Lisajou in P5.js](https://editor.p5js.org/guma/sketches/gJAZwbKlG)
 
 {% raw %}
-
 <iframe src="https://preview.p5js.org/guma/embed/E4Qwdkb4Z" width="100%" height="450" frameborder="no"></iframe>  
 {% endraw %}
 
