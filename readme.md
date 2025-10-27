@@ -28,8 +28,8 @@
 2. **[Lesson 02 - Grids & Iterative Patterns](./lessons/lesson02_grids/)** - Structured generative systems
 3. **[Lesson 03 - Clock / Time](./lessons/lesson03_clock/)** - Generative representation of time
 4. **[Lesson 04 - Drawing Machines](./lessons/lesson04_machines/)** - Generative systems as drawing tools
-5. **[Lesson 05 - Reflection / Collect / Prepare](#/)** - Mid-course checkpoint
-6. **Lesson 06 - Faces / Parametric Generators** - Parametric design through faces
+5. **Lesson 05 - Reflection / Collect / Prepare** - Mid-course checkpoint
+6. **[Lesson 06 - Faces / Parametric Generators](./lessons/lesson06_faces/)** - Parametric design through faces
 7. **Lesson 07 - Pixels (Part 1)** - Pixels as material
 8. **Lesson 08 or 09** - Second checkpoint
 9. **Lesson .. - Pixels (Part 2)** - Advanced pixel transformations
