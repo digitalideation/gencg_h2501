@@ -21,7 +21,7 @@ Explore parametric design by generating faces through code.
 
 ### Brief
 
-**Write a program** that generates parametric faces. Your face should be controlled by at least 3 parameters but preferably more. Variations in some of the features can be used to control the expressiveness of the face or some other characteristics (species, gender, age, mood, etc…) Differentiate continuous parameters (size and position of features) and discrete parameters (piercing, number of eyeballs). Consider the space you're generating your face in (2D / 3D) and the view angle: front, profile, 3/4? [^note-id1]
+**Write a program** that generates parametric faces. Your face should be controlled by at least 3 parameters but preferably more. Variations in some of the features can be used to control the expressiveness of the face or some other characteristics (species, gender, age, mood, etc…) Differentiate continuous parameters (size and position of features) and discrete parameters (piercing, number of eyeballs). Consider the space you're generating your face in (2D / 3D) and the view angle: front, profile, 3/4?
 
 > **Note:** This is a coding assignment. You are building a system that can generate infinite variations of a face by changing parameters (variables in your code). Think of it like designing a character creation system in a video game - sliders and options that produce different faces.
 
