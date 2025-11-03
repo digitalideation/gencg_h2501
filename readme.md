@@ -24,19 +24,25 @@
 
 ## 📅 Course Schedule (14 × 2.5h Lessons)
 
-1. **[Lesson 01 - Introduction & Foundations](./lessons/lesson01_intro/)** - Course intro, analog computing, p5.js setup
-2. **[Lesson 02 - Grids & Iterative Patterns](./lessons/lesson02_grids/)** - Structured generative systems
-3. **[Lesson 03 - Clock / Time](./lessons/lesson03_clock/)** - Generative representation of time
-4. **[Lesson 04 - Drawing Machines](./lessons/lesson04_machines/)** - Generative systems as drawing tools
-5. **Lesson 05 - Reflection / Collect / Prepare** - Mid-course checkpoint
-6. **[Lesson 06 - Faces / Parametric Generators](./lessons/lesson06_faces/)** - Parametric design through faces
-7. **Lesson 07 - Pixels (Part 1)** - Pixels as material
-8. **Lesson 08 or 09** - Second checkpoint
-9. **Lesson .. - Pixels (Part 2)** - Advanced pixel transformations
-10. **Lesson .. - Advanced Composition / Mixed Media** - 3D, spatial design, hybrid projects
-11. **Lesson .. - Integration & Experimentation** - Merge multiple techniques
-12. **Lesson .. - Final Project Workshop** - Refinement and peer review
-13. **Lesson .. - Final Presentations & Critique** - Sharing and evaluation
+1. _Week 01+02_: **[Lesson 01 - Introduction & Foundations](./lessons/lesson01_intro/)** - Course intro, analog computing, p5.js setup
+2. _Week 03_: **[Lesson 02 - Grids & Iterative Patterns](./lessons/lesson02_grids/)** - Structured generative systems
+3. _week 04_: **[Lesson 03 - Clock / Time](./lessons/lesson03_clock/)** - Generative representation of time
+4. _week 05_: **[Lesson 04 - Drawing Machines](./lessons/lesson04_machines/)** - Generative systems as drawing tools
+5. _week 06_: **Lesson 05 - Reflection / Collect / Prepare** - Mid-course checkpoint
+6. _week 07_: **[Lesson 06 - Faces / Parametric Generators](./lessons/lesson06_faces/)** - Parametric design through faces
+7. _week 08_: **Self Study** (working on past themes ⬆️ + project)
+8. _week 09_: **Second checkpoint** - individual 1-on-1 talks (about 5 minutes each)
+9. _week 10_: **Lesson 07 - Pixels (Part 1 + 2)** - Pixels as material + Advanced pixel transformations
+10. _week 11_: **Project work** - Group + individual work on project + journal
+11. _week 12_: **Project work** - Group + individual work on project + journal
+12. _week 13_: **Lesson .. - Final Project Workshop** - Refinement and peer review
+13. _week 14_: **Lesson .. - Final Presentations & Critique** - Sharing and evaluation
+
+Canceled:
+
+- ~~_week 11_: **Lesson .. - Advanced Composition / Mixed Media** - 3D, spatial design, hybrid projects~~
+- ~~_week 12_: **Lesson .. - Integration & Experimentation** - Merge multiple techniques~~
+- ~~_week 13_: **Lesson .. - Final Project Workshop** - Refinement and peer review~~
 
 ---
 
