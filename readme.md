@@ -32,7 +32,7 @@
 6. _week 07_: **[Lesson 06 - Faces / Parametric Generators](./lessons/lesson06_faces/)** - Parametric design through faces
 7. _week 08_: **Self Study** (working on past themes ⬆️ + project)
 8. _week 09_: **Second checkpoint** - individual 1-on-1 talks (about 5 minutes each)
-9. _week 10_: **Lesson 07 - Pixels (Part 1 + 2)** - Pixels as material + Advanced pixel transformations
+9. _week 10_: **[Lesson 07 - Pixels](./lessons/lesson07_pixels/)** - Pixels as material + Advanced pixel transformations
 10. _week 11_: **Project work** - Group + individual work on project + journal
 11. _week 12_: **Project work** - Group + individual work on project + journal
 12. _week 13_: **Lesson .. - Final Project Workshop** - Refinement and peer review
