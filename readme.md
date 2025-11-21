@@ -33,7 +33,7 @@
 7. _week 08_: **Self Study** (working on past themes ⬆️ + project)
 8. _week 09_: **Second checkpoint** - individual 1-on-1 talks (about 5 minutes each)
 9. _week 10_: **[Lesson 07 - Pixels](./lessons/lesson07_pixels/)** - Pixels as material + Advanced pixel transformations
-10. _week 11_: **Project work** - Group + individual work on project + journal
+10. _week 11_: **🏠🏗️👷 Self Study - Project work** - Group + individual work on project + journal
 11. _week 12_: **Project work** - Group + individual work on project + journal
 12. _week 13_: **Lesson .. - Final Project Workshop** - Refinement and peer review
 13. _week 14_: **Lesson .. - Final Presentations & Critique** - Sharing and evaluation
