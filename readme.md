@@ -95,16 +95,6 @@ During the class we will be looking at the core functions of p5.js and three.js,
 
 [Read this for details information on "how to journal" and the detailled requirements for the journal.](./lessons/extra/journal.md)
 
-### 4. Timeline
-
-- **Week 1**: First entry, setting up journal structure
-- **Weeks 2-4**: Building weekly documentation habit
-- **Week 5 (Lesson 05)**: **Mid-term journal review** + group feedback session
-- **Weeks 6-7**: Continued weekly documentation
-- **Week 8 or 9:** **Secondary journal review**
-- **Weeks 10-13**: Continued weekly documentation
-- **Week 14**: **Final presentation** Final entry reflecting on entire semester journey
-
 ## Tools
 
 We will use [**p5.js** ](https://p5js.org/) for the front end. It’s a high level creative programming framework with an [intuitive API](https://p5js.org/reference/). If some of you have used Processing before you should be confortable using p5.js.
