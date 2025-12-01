@@ -34,7 +34,7 @@
 8. _week 09_: **Second checkpoint** - individual 1-on-1 talks (about 5 minutes each)
 9. _week 10_: **[Lesson 07 - Pixels](./lessons/lesson07_pixels/)** - Pixels as material + Advanced pixel transformations
 10. _week 11_: **🏠🏗️👷 Self Study - Project work** - Group + individual work on project + journal
-11. _week 12_: **Project work** - Group + individual work on project + journal
+11. _week 12_: **🧑‍🚀🛰️ Remote - Project work** - Group + individual work on project + journal. We meet [online](https://teams.microsoft.com/l/channel/19%3A7XHs_qLtMVJd84RT-IT7JprBU7TS3Kw7lwITVB4kSFk1%40thread.tacv2/General?groupId=79c6ce43-a385-4938-89c1-3f14c1dc5363&tenantId=75a34008-d7d1-4924-8e78-31fea86f6e68)
 12. _week 13_: **Lesson .. - Final Project Workshop** - Refinement and peer review
 13. _week 14_: **Lesson .. - Final Presentations & Critique** - Sharing and evaluation
 
