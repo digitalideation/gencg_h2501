@@ -2,16 +2,21 @@
 
 ## Week 1–2 Journal Entry
 
-### Lesson 1 & 2 ( Intro & Grid )
+### Lesson 1 & 2 ( Intro & Foundation )
 
-Week 1–2 Journal Entry
+Brief Summary of What We Learned in Week 1 (GCG – Lesson 01)
 
-In the first two weeks of the Generative Computer Graphics module, I gained a clear understanding of what GCG is and how it relates to immersive technologies. I learned that generative graphics are not manually created assets, but visuals generated through algorithms, logic, and randomness—an essential foundation for interactive and adaptive media such as VR, AR, simulations, and procedural environments.
-
-We started by exploring the fundamentals of computing with code. Although I already have experience with JavaScript, this was my first time working with p5.js, a JavaScript library designed specifically for creative coding. As someone who enjoys drawing, this transition from traditional art to computational creativity was very motivating.
-
-Overall, these early exercises strengthened my ability to think visually through code and showed me how generative methods can support future projects in the Immersive Tech field—such as procedural scenes, interactive UI elements, or adaptive storytelling environments.
+In the first week, we were introduced to Generative Computer Graphics (GCG), its philosophy, and how rules, randomness, and iteration shape generative art.
+We explored historical pioneers like Malevich, Klee, Molnár, Nees, and learned how analog systems (e.g., Sol Lewitt’s wall drawings) relate to computational thinking.
+We practiced "computing without computers" through procedural drawings and rule-based systems.
+We learned how to set up our GitHub repository, clone it, and create the journal/ branch for documentation.
+We were introduced to p5.js, prepared our local setup, and learned the academic journal workflow (adding images, code snippets, and reflections).
+Finally, we discussed how to ask for help, pair programming, peer learning, and expectations for sharing content in the class.
 
 {% raw %}
 <iframe src="../content/day01/03/embed.html" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
+
+{% raw %}
+<iframe src="../content/day01/04/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
