@@ -1,4 +1,4 @@
-# About Me
+# GCG Journal
 
 <img src="{{ '/content/day01/personal.jpg' | relative_url }}"
      alt="Abdullah Barzinji"
