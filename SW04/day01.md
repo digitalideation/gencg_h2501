@@ -17,6 +17,8 @@ Finally, we discussed how to ask for help, pair programming, peer learning, and 
 <iframe src="../content/day01/03/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
+**Procedural Drawing Exercise:** This simple 8x8 grid drawing was generated using **JavaScript** with the **p5.js** library. Inspired by Sol LeWitt's wall drawings, it follows procedural rules: each cell randomly contains either a circle or square, with random colors selected from a limited palette (red, blue, yellow, green, black) and varying sizes. Click anywhere to regenerate a new pattern, demonstrating how algorithms and randomness can create unique visual outcomes from the same set of rules.
+
 {% raw %}
 <iframe src="../content/day01/04/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
