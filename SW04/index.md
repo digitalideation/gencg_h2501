@@ -1,4 +1,4 @@
-# About Me
+# Journal
 
 
 ## Lesson 1 & 2 ( Intro & Grid )
