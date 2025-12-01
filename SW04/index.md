@@ -14,6 +14,6 @@ We started by exploring the fundamentals of computing with code. Although I alre
 Overall, these early exercises strengthened my ability to think visually through code and showed me how generative methods can support future projects in the Immersive Tech field—such as procedural scenes, interactive UI elements, or adaptive storytelling environments.
 
 {% raw %}
-<iframe src="content/day01/03/embed.html" width="100%" height="450" frameborder="no"></iframe>
+<iframe src="../content/day01/03/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
