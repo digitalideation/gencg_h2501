@@ -53,6 +53,25 @@ The analog clock represents time as a cycle rather than a line, emphasizing the 
 <iframe src="../content/day01/08/embed.html" width="100%" height="650" frameborder="no"></iframe>
 {% endraw %}
 
+### Exercise 3: Clock with Live Grid Pattern Background
+
+This example combines the concepts from previous lessons - merging **time visualization** with **generative grid patterns** to create a dynamic, layered composition. The background continuously animates while the clock displays real-time.
+
+**How it works:**
+- **Animated grid background**: 15x15 grid with shapes that pulse and change color based on time and position
+- Grid colors shift continuously using `frameCount` combined with cell coordinates
+- Shapes alternate between circles and squares, changing every second
+- **Layered clock**: Analog clock sits in the center with semi-transparent background
+- Clock hands (red=hour, blue=minute, yellow=second) rotate smoothly over the animated pattern
+- The background creates a sense of **time as movement and flow**, not just the clock hands
+
+**Design concept:**
+This visualization demonstrates how time can be represented in multiple layers - the structured, predictable clock hands showing precise time, while the organic, flowing grid pattern represents the subjective, experiential nature of time passing. The grid pulses and shifts, making each moment visually unique.
+
+{% raw %}
+<iframe src="../content/day01/06/embed.html" width="100%" height="650" frameborder="no"></iframe>
+{% endraw %}
+
 ### Reflection
 
 These two clocks represent contrasting philosophies of time:
