@@ -41,7 +41,7 @@ This static pattern explores the relationship between order and randomness using
 - The minimal color palette (black/white) emphasizes form and contrast
 
 {% raw %}
-<iframe src="../content/day01/06/embed.html" width="100%" height="450" frameborder="no"></iframe>
+<iframe src="../content/day02/01/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
 ### Reflection
