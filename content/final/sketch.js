@@ -19,12 +19,12 @@ function setup() {
     prevFrame = createImage(width, height);
     prevFrame.loadPixels();
     
-    background(255);
+    background(0);
     
     // Initial message
     textAlign(CENTER, CENTER);
     textSize(24);
-    fill(100);
+    fill(255);
     text("Allow camera access...", width/2, height/2);
 }
 
@@ -33,6 +33,13 @@ function draw() {
     if (!video || video.width === 0) {
         return;
     }
+    
+    // Draw video feed in background so user can see themselves
+    push();
+    translate(width, 0);
+    scale(-1, 1); // Mirror the video
+    image(video, 0, 0, width, height);
+    pop();
     
     // Load current video frame
     video.loadPixels();
@@ -118,7 +125,6 @@ class Particle {
 // Clear canvas
 function keyPressed() {
     if (key === ' ') {
-        background(255);
         particles = [];
     }
     if (key === 's' || key === 'S') {
