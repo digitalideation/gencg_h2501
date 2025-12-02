@@ -6,10 +6,18 @@ let radius = 0;
 
 function setup() {
     createCanvas(600, 600);
+    drawSpiral();
+}
+
+function drawSpiral() {
     background(20);
     stroke(255, 150);
     strokeWeight(1);
     noFill();
+    
+    // Reset for new spiral
+    angle = 0;
+    radius = 0;
     
     // Draw the spiral
     beginShape();
@@ -27,17 +35,10 @@ function setup() {
         radius += 0.5;
     }
     endShape();
-    
-    noLoop();
 }
 
 // Click to regenerate
 function mousePressed() {
-    angle = 0;
-    radius = 0;
-    background(20);
-    loop();
-    redraw();
-    noLoop();
+    drawSpiral();
 }
 
