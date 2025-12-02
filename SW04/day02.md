@@ -1,6 +1,6 @@
 # Week 3
 
-## WGrids & Patterns
+## Grids & Patterns
 
 ### Lesson 3: Grids and Iterative Patterns
 
