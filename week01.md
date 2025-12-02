@@ -13,9 +13,7 @@ circle in the stack shifts slightly in one of four cardinal directions:
 left, right, up, or down. The direction is re-randomized every time I click,
 leading to a broad variety of emergent patterns.
 
-{% raw %}
-<iframe src="code/00/embed.html" width="100%" height="450" frameborder="no"></iframe>
-{% endraw %}  
+{% raw %}<iframe src="./code/00/embed.html" width="100%" height="450" frameborder="no"></iframe>{% endraw %}
 
 The biggest challenge was finding the right balance between structure and
 movement. If the displacement is too strong, the grid dissolves; too subtle, and
