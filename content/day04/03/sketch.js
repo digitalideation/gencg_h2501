@@ -45,7 +45,7 @@ function draw() {
     let angleAcc2 = (num1 * (num2 + num3 + num4)) / den;
     
     // Update velocities and angles
-    angleVel1 += angleAcc2;
+    angleVel1 += angleAcc1;
     angleVel2 += angleAcc2;
     angleVel1 *= damping;
     angleVel2 *= damping;

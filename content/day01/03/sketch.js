@@ -5,6 +5,7 @@
 let canvas;
 let p = false;
 let backgroundColor, fillColor;
+let options = { color: 1 };
 
 function setup() {
   // Canvas setup
