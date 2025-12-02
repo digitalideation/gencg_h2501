@@ -1,12 +1,8 @@
-# Week 2
+# Week 3
 
-## Week 2 - Grids & Patterns
+## WGrids & Patterns
 
-### Generative Computer Graphics – Fall 2025
-
-Week 2 Journal Entry
-
-### Lesson 2: Grids and Iterative Patterns
+### Lesson 3: Grids and Iterative Patterns
 
 In this lesson, we explored structured generative systems and learned how to create tiling patterns and textural compositions. The focus was on understanding how simple rules and iterations can create complex visual outcomes, balancing order and randomness, symmetry, rhythm, and color.
 

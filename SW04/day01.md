@@ -1,6 +1,6 @@
-# Week 1
+# Week 1 & 2
 
-## Week 1–2 Journal Entry
+## Journal Entry
 
 ### Lesson 1 & 2 ( Intro & Foundation )
 
