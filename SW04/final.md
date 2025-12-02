@@ -31,17 +31,25 @@ The project uses **p5.js** (JavaScript) with webcam capture and pixel-based moti
 **How it works:**
 1. **Motion Detection**: Webcam captures live video feed
 2. **Analysis**: Compares current frame with previous frame to detect areas of change
-3. **Generation**: Creates particles at motion hotspots
-4. **Behavior**: Particles follow movement trails, creating organic patterns
-5. **Visual Output**: Black and white dots accumulate, forming a generative drawing
+3. **Audio Detection**: Microphone captures sound levels (music, voice, ambient noise)
+4. **Generation**: Creates particles at motion hotspots
+5. **Color Mode Switching**: 
+   - Silent: Black and white particles
+   - With Music/Sound: Colorful particles with hues based on audio level
+6. **Behavior**: Particles follow movement trails, creating organic patterns
+7. **Visual Output**: Particles accumulate over live video feed, forming a generative drawing
 
 ### Key Features
 
 - **Real-time motion tracking** without requiring external libraries
+- **Audio reactivity** using microphone input (p5.sound library)
+- **Dual mode system**: 
+  - Silent mode: Black and white minimalist particles
+  - Music mode: Colorful particles with audio-reactive hues
 - **Particle system** with 1000+ simultaneous particles
 - **Organic movement patterns** using physics simulation
-- **Accumulative drawing** - movements leave permanent trails
-- **Minimalist aesthetic** - black and white for maximum contrast
+- **Live video feed** - see yourself while creating art
+- **Accumulative drawing** - movements leave trails over video
 - **Performance optimized** for smooth real-time interaction
 
 ---
@@ -53,13 +61,15 @@ The project uses **p5.js** (JavaScript) with webcam capture and pixel-based moti
 {% endraw %}
 
 **Instructions:**
-1. Allow webcam access when prompted
-2. Move in front of the camera - dance, wave, gesture
-3. Watch as particles are born from your movements
-4. Fast movements create more particles
-5. Particles gradually fade, creating ghostly trails
-6. Press SPACEBAR to clear and start fresh
-7. Press 'S' to save your generative artwork
+1. **Click anywhere** to start the experience (allows camera & mic access)
+2. **Move in front of the camera** - dance, wave, gesture
+3. Watch as **black and white particles** are born from your movements
+4. **Play music** or make sound - particles become **colorful** and audio-reactive
+5. **Louder sound** = more vibrant colors and faster particle generation
+6. Fast movements create more particles
+7. Particles gradually fade, creating ghostly trails over your live video
+8. Press **SPACEBAR** to clear particles and start fresh
+9. Press **'S'** to save your generative artwork as PNG
 
 ---
 

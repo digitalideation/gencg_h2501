@@ -1,4 +1,4 @@
-// Motion-Reactive Generative Particle System
+// Motion-Reactive Generative Particle System with Audio
 // Final Project - Generative Computer Graphics Fall 2025
 
 let video;
@@ -6,6 +6,9 @@ let prevFrame;
 let particles = [];
 let motionThreshold = 30;
 let maxParticles = 1000;
+let mic;
+let audioLevel = 0;
+let audioStarted = false;
 
 function setup() {
     createCanvas(640, 480);
@@ -25,13 +28,29 @@ function setup() {
     textAlign(CENTER, CENTER);
     textSize(24);
     fill(255);
-    text("Allow camera access...", width/2, height/2);
+    text("Click to start...", width/2, height/2);
+    textSize(16);
+    text("(Allows camera & microphone access)", width/2, height/2 + 40);
+}
+
+function mousePressed() {
+    if (!audioStarted) {
+        // Initialize microphone
+        mic = new p5.AudioIn();
+        mic.start();
+        audioStarted = true;
+    }
 }
 
 function draw() {
     // Check if video is ready
     if (!video || video.width === 0) {
         return;
+    }
+    
+    // Get audio level if mic is active
+    if (audioStarted && mic) {
+        audioLevel = mic.getLevel();
     }
     
     // Draw video feed in background so user can see themselves
@@ -63,11 +82,18 @@ function draw() {
             
             // If significant motion detected, create particles
             if (diff > motionThreshold && particles.length < maxParticles) {
-                // Create both black and white particles randomly
-                if (random() > 0.5) {
-                    particles.push(new Particle(x, y, 0));    // Black
+                // If audio level is high (music playing), create colorful particles
+                if (audioLevel > 0.1) {
+                    // Colorful particles - hue based on audio level and position
+                    let hue = map(audioLevel, 0, 1, 0, 360) + (x + y) % 100;
+                    particles.push(new ColorParticle(x, y, hue));
                 } else {
-                    particles.push(new Particle(x, y, 255));  // White
+                    // Create both black and white particles randomly (silent mode)
+                    if (random() > 0.5) {
+                        particles.push(new Particle(x, y, 0));    // Black
+                    } else {
+                        particles.push(new Particle(x, y, 255));  // White
+                    }
                 }
             }
         }
@@ -89,7 +115,7 @@ function draw() {
     prevFrame.loadPixels();
 }
 
-// Particle class with physics
+// Particle class with physics (Black/White)
 class Particle {
     constructor(x, y, col) {
         this.pos = createVector(x, y);
@@ -115,6 +141,41 @@ class Particle {
         noStroke();
         fill(this.col, this.lifespan);
         ellipse(this.pos.x, this.pos.y, this.size);
+    }
+    
+    isDead() {
+        return this.lifespan <= 0;
+    }
+}
+
+// Colorful particle class (for music mode)
+class ColorParticle {
+    constructor(x, y, hue) {
+        this.pos = createVector(x, y);
+        this.vel = createVector(random(-3, 3), random(-3, 3));
+        this.acc = createVector(0, 0);
+        this.lifespan = 255;
+        this.hue = hue % 360;
+        this.size = random(4, 10);
+    }
+    
+    update() {
+        // Physics simulation
+        this.vel.add(this.acc);
+        this.vel.mult(0.95);  // Friction
+        this.pos.add(this.vel);
+        this.acc.mult(0);
+        
+        // Fade over time
+        this.lifespan -= 2;
+    }
+    
+    display() {
+        colorMode(HSB, 360, 100, 100, 255);
+        noStroke();
+        fill(this.hue, 80, 90, this.lifespan);
+        ellipse(this.pos.x, this.pos.y, this.size);
+        colorMode(RGB, 255);
     }
     
     isDead() {
