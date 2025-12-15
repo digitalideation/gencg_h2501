@@ -36,7 +36,7 @@
 10. _week 11_: **🏠🏗️👷 Self Study - Project work** - Group + individual work on project + journal
 11. _week 12_: **🧑‍🚀🛰️ Remote - Project work** - Group + individual work on project + journal. We meet [online](https://teams.microsoft.com/l/channel/19%3A7XHs_qLtMVJd84RT-IT7JprBU7TS3Kw7lwITVB4kSFk1%40thread.tacv2/General?groupId=79c6ce43-a385-4938-89c1-3f14c1dc5363&tenantId=75a34008-d7d1-4924-8e78-31fea86f6e68)
 12. _week 13_: **[Lesson 11 - Final Project Workshop](./lessons/lesson11_workshop/)** - Refinement and peer review
-13. _week 14_: **[Lesson 12 - Final Presentations & Critique]()** - Sharing and evaluation
+13. _week 14_: **[Lesson 12 - Final Presentations & Critique](./lessons/lesson12_presentation/)** - Sharing and evaluation
 
 Canceled:
 
