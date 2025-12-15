@@ -115,7 +115,7 @@ No need for elaborate slides — clarity is the priority.
 ## Deliverables (End of Semester)
 
 - **Final Project submission**
-- **Complete Journal (pdf)** (all weeks, with sketches, references, code snippets)
+- **Complete Journal Folder** (all weeks, with sketches, references, code snippets)
 - **Documentation** of process + final images (in the journal)
 - **short video** (5 to 10 minutes walking us through your process and journey)
 
