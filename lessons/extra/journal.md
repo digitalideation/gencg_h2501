@@ -142,7 +142,7 @@ All students must submit their journal to **ILIAS** by the final deadline.
 **If using an alternative platform (Observable, Notion, etc.):**
 
 - You may use alternative platforms for your working process
-- **For ILIAS submission:** You must submit BOTH:
+- **For ILIAS submission:** You must submit:
   1. A PDF export of your complete journal
   2. A document containing the direct link(s) to your online journal
   3. A short video (5 to 10 minutes walking us through your process and journey)
