@@ -23,7 +23,7 @@ Because the project represents **only a small part of the final grade**, the goa
 
 ### Brief
 
-Each student has **6 minutes total**, including setup and transition.  
+You have **6 minutes total**, including setup and transition.  
 There is **no extended Q&A** — at most **one brief question** per presentation (optional, time permitting).
 
 Your presentation should cover the essentials:
@@ -81,7 +81,7 @@ If time allows, peers may ask **one short question**, such as:
 - “What parameter had the biggest visual impact?”
 - “Which iteration most influenced your final piece?”
 
-## 🧭 Guidelines for Peers
+## Guidelines for Peers
 
 Feedback is **minimal**, focused, and process-oriented.
 
@@ -95,7 +95,7 @@ Avoid:
 Preferring:  
 ✔ Rule, process, and decision-making questions
 
-## 🎨 What Students Must Prepare
+## What You Must Prepare
 
 A **single screen or slide** containing:
 
@@ -106,13 +106,13 @@ A **single screen or slide** containing:
 
 No need for elaborate slides — clarity is the priority.
 
-## 📝 Activities
+## Activities
 
 - Present your final project
 - Offer one concise question to peers when appropriate
 - Note one takeaway for your journal
 
-## 📂 Deliverables (End of Semester)
+## Deliverables (End of Semester)
 
 - **Final Project submission**
 - **Complete Journal Folder** (all weeks, with sketches, references, code snippets)
@@ -120,14 +120,14 @@ No need for elaborate slides — clarity is the priority.
 - **short video** (5 to 10 minutes walking us through your process and journey)
 
 
-## 📓 Journal Prompts (Final Entry)
+## Journal Prompts (Final Entry)
 
 - What did you learn about your creative process this semester?
 - How did your algorithmic thinking evolve?
 - Which experiment or failure shaped the project most?
 - How might you extend this system beyond class?
 
-## 🔚 Wrap Up & Homework
+## Wrap Up & Homework
 
 - Submit final project + journal ZIP according to instructions
 - Upload documentation
