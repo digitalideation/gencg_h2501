@@ -95,7 +95,7 @@ Avoid:
 Preferring:  
 ✔ Rule, process, and decision-making questions
 
-## What You Must Prepare
+## What You Can Prepare
 
 A **single screen or slide** containing:
 
