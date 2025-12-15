@@ -4,6 +4,8 @@
     <title>Motion-Reactive Generative Art - Final Project</title>
     <script src="../lib/p5.min.js"></script>
     <script src="../lib/addons/p5.sound.min.js"></script>
+    <!-- ml5.js for hand tracking and pose detection (Iterations 3 & 4) -->
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
     <script src="sketch.js"></script>
 
     <style>
@@ -38,7 +40,12 @@
 
 <body>
     <div class="instructions">
-        Click to start • Move in front of camera • Play music for colors • SPACE to clear • S to save
+        <div id="instructions-text">
+            Click to start • Move in front of camera • Play music for colors • SPACE to clear • S to save
+        </div>
+        <div style="margin-top: 5px; font-size: 10px; opacity: 0.8;">
+            Iteration 1: Basic motion detection | Iteration 2: Fixed mirroring | Iteration 3: Heart sign detection | Iteration 4: Full karaoke mode
+        </div>
     </div>
 </body>
 
