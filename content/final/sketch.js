@@ -658,47 +658,99 @@ function keyPressed() {
     }
 }
 
-// Start video recording using MediaRecorder API
+// Start video recording using MediaRecorder API with audio
 function startVideoRecording() {
     try {
-        // Get canvas stream
-        stream = canvas.captureStream(30); // 30 FPS
+        // Get canvas video stream
+        let videoStream = canvas.captureStream(30); // 30 FPS
         
-        // Check for supported MIME types (prefer MP4/MPEG4, fallback to webm)
-        let mimeType = 'video/webm;codecs=vp9';
-        if (MediaRecorder.isTypeSupported('video/mp4')) {
-            mimeType = 'video/mp4';
-        } else if (MediaRecorder.isTypeSupported('video/webm;codecs=vp9')) {
-            mimeType = 'video/webm;codecs=vp9';
-        } else if (MediaRecorder.isTypeSupported('video/webm;codecs=vp8')) {
-            mimeType = 'video/webm;codecs=vp8';
-        } else if (MediaRecorder.isTypeSupported('video/webm')) {
-            mimeType = 'video/webm';
-        }
-        
-        // Create MediaRecorder
-        recordedChunks = [];
-        mediaRecorder = new MediaRecorder(stream, {
-            mimeType: mimeType,
-            videoBitsPerSecond: 2500000 // 2.5 Mbps for good quality
-        });
-        
-        // Handle data available event
-        mediaRecorder.ondataavailable = function(event) {
-            if (event.data.size > 0) {
-                recordedChunks.push(event.data);
-            }
-        };
-        
-        // Handle recording stopped
-        mediaRecorder.onstop = function() {
-            saveVideoFile();
-        };
-        
-        // Start recording
-        mediaRecorder.start(100); // Collect data every 100ms
-        isRecording = true;
-        console.log("Recording started... (Format: " + mimeType + ")");
+        // Get audio stream from microphone
+        navigator.mediaDevices.getUserMedia({ audio: true, video: false })
+            .then(function(audioStream) {
+                // Combine video and audio streams
+                let videoTrack = videoStream.getVideoTracks()[0];
+                let audioTrack = audioStream.getAudioTracks()[0];
+                
+                // Create combined stream
+                stream = new MediaStream();
+                stream.addTrack(videoTrack);
+                stream.addTrack(audioTrack);
+                
+                // Store audio stream for cleanup
+                window.audioStreamForRecording = audioStream;
+                
+                // Check for supported MIME types (prefer formats that support audio)
+                let mimeType = 'video/webm;codecs=vp9,opus';
+                if (MediaRecorder.isTypeSupported('video/webm;codecs=vp9,opus')) {
+                    mimeType = 'video/webm;codecs=vp9,opus';
+                } else if (MediaRecorder.isTypeSupported('video/webm;codecs=vp8,opus')) {
+                    mimeType = 'video/webm;codecs=vp8,opus';
+                } else if (MediaRecorder.isTypeSupported('video/webm')) {
+                    mimeType = 'video/webm';
+                } else if (MediaRecorder.isTypeSupported('video/mp4')) {
+                    mimeType = 'video/mp4';
+                }
+                
+                // Create MediaRecorder with audio
+                recordedChunks = [];
+                mediaRecorder = new MediaRecorder(stream, {
+                    mimeType: mimeType,
+                    videoBitsPerSecond: 2500000, // 2.5 Mbps for good quality
+                    audioBitsPerSecond: 128000 // 128 kbps for audio
+                });
+                
+                // Handle data available event
+                mediaRecorder.ondataavailable = function(event) {
+                    if (event.data.size > 0) {
+                        recordedChunks.push(event.data);
+                    }
+                };
+                
+                // Handle recording stopped
+                mediaRecorder.onstop = function() {
+                    saveVideoFile();
+                };
+                
+                // Start recording
+                mediaRecorder.start(100); // Collect data every 100ms
+                isRecording = true;
+                console.log("Recording started with audio... (Format: " + mimeType + ")");
+            })
+            .catch(function(error) {
+                console.error("Error getting audio stream:", error);
+                // Fallback: record video only if audio fails
+                alert("Could not access microphone. Recording video only.");
+                stream = videoStream;
+                
+                let mimeType = 'video/webm;codecs=vp9';
+                if (MediaRecorder.isTypeSupported('video/mp4')) {
+                    mimeType = 'video/mp4';
+                } else if (MediaRecorder.isTypeSupported('video/webm;codecs=vp9')) {
+                    mimeType = 'video/webm;codecs=vp9';
+                } else if (MediaRecorder.isTypeSupported('video/webm')) {
+                    mimeType = 'video/webm';
+                }
+                
+                recordedChunks = [];
+                mediaRecorder = new MediaRecorder(stream, {
+                    mimeType: mimeType,
+                    videoBitsPerSecond: 2500000
+                });
+                
+                mediaRecorder.ondataavailable = function(event) {
+                    if (event.data.size > 0) {
+                        recordedChunks.push(event.data);
+                    }
+                };
+                
+                mediaRecorder.onstop = function() {
+                    saveVideoFile();
+                };
+                
+                mediaRecorder.start(100);
+                isRecording = true;
+                console.log("Recording started (video only)... (Format: " + mimeType + ")");
+            });
     } catch (error) {
         console.error("Error starting video recording:", error);
         alert("Failed to start video recording: " + error.message);
@@ -710,7 +762,18 @@ function startVideoRecording() {
 function stopVideoRecording() {
     if (mediaRecorder && isRecording) {
         mediaRecorder.stop();
-        stream.getTracks().forEach(track => track.stop()); // Stop the stream
+        
+        // Stop all tracks (video and audio)
+        if (stream) {
+            stream.getTracks().forEach(track => track.stop());
+        }
+        
+        // Stop audio stream if it exists
+        if (window.audioStreamForRecording) {
+            window.audioStreamForRecording.getTracks().forEach(track => track.stop());
+            window.audioStreamForRecording = null;
+        }
+        
         isRecording = false;
         console.log("Recording stopped. Processing video...");
     }
