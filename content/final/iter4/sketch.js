@@ -431,16 +431,21 @@ function startVideoRecording() {
                 // Store audio stream for cleanup
                 window.audioStreamForRecording = audioStream;
                 
-                // Check for supported MIME types (prefer formats that support audio)
-                let mimeType = 'video/webm;codecs=vp9,opus';
-                if (MediaRecorder.isTypeSupported('video/webm;codecs=vp9,opus')) {
+                // Check for supported MIME types (prioritize MP4)
+                let mimeType = 'video/mp4';
+                // Try MP4 with H.264 video and AAC audio (most compatible)
+                if (MediaRecorder.isTypeSupported('video/mp4;codecs=avc1.42E01E,mp4a.40.2')) {
+                    mimeType = 'video/mp4;codecs=avc1.42E01E,mp4a.40.2';
+                } else if (MediaRecorder.isTypeSupported('video/mp4;codecs=h264,aac')) {
+                    mimeType = 'video/mp4;codecs=h264,aac';
+                } else if (MediaRecorder.isTypeSupported('video/mp4')) {
+                    mimeType = 'video/mp4';
+                } else if (MediaRecorder.isTypeSupported('video/webm;codecs=vp9,opus')) {
                     mimeType = 'video/webm;codecs=vp9,opus';
                 } else if (MediaRecorder.isTypeSupported('video/webm;codecs=vp8,opus')) {
                     mimeType = 'video/webm;codecs=vp8,opus';
                 } else if (MediaRecorder.isTypeSupported('video/webm')) {
                     mimeType = 'video/webm';
-                } else if (MediaRecorder.isTypeSupported('video/mp4')) {
-                    mimeType = 'video/mp4';
                 }
                 
                 // Create MediaRecorder with audio
@@ -474,8 +479,11 @@ function startVideoRecording() {
                 alert("Could not access microphone. Recording video only.");
                 stream = videoStream;
                 
-                let mimeType = 'video/webm;codecs=vp9';
-                if (MediaRecorder.isTypeSupported('video/mp4')) {
+                // Prioritize MP4 even for video-only fallback
+                let mimeType = 'video/mp4';
+                if (MediaRecorder.isTypeSupported('video/mp4;codecs=avc1.42E01E')) {
+                    mimeType = 'video/mp4;codecs=avc1.42E01E';
+                } else if (MediaRecorder.isTypeSupported('video/mp4')) {
                     mimeType = 'video/mp4';
                 } else if (MediaRecorder.isTypeSupported('video/webm;codecs=vp9')) {
                     mimeType = 'video/webm;codecs=vp9';
@@ -549,10 +557,10 @@ function saveVideoFile() {
     a.style.display = 'none';
     a.href = url;
     
-    // Determine file extension based on MIME type
-    let extension = 'webm';
-    if (mediaRecorder.mimeType.includes('mp4')) {
-        extension = 'mp4';
+    // Determine file extension based on MIME type (prefer mp4)
+    let extension = 'mp4';
+    if (!mediaRecorder.mimeType.includes('mp4')) {
+        extension = 'webm';
     }
     
     a.download = 'motion-art-iter4-' + new Date().getTime() + '.' + extension;
