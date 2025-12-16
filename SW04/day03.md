@@ -4,7 +4,7 @@
 
 ### Lesson 3: Clock / Time
 
-In this lesson, we explored the concept of time as a design material in generative systems. We learned how to visually and conceptually represent time, considering both linear and cyclical models of time, and how to map time variables to visual elements.
+In this lesson, I explored the concept of time as a design material in generative systems. I learned how to visually and conceptually represent time, considering both linear and cyclical models of time, and how to map time variables to visual elements.
 
 **Key Concepts:**
 - Linear vs. cyclical time representation

@@ -4,7 +4,7 @@
 
 ### Lesson 3: Grids and Iterative Patterns
 
-In this lesson, we explored structured generative systems and learned how to create tiling patterns and textural compositions. The focus was on understanding how simple rules and iterations can create complex visual outcomes, balancing order and randomness, symmetry, rhythm, and color.
+In this lesson, I explored structured generative systems and learned how to create tiling patterns and textural compositions. The focus was on understanding how simple rules and iterations can create complex visual outcomes, balancing order and randomness, symmetry, rhythm, and color.
 
 **Key Concepts:**
 - Creating grid-based patterns

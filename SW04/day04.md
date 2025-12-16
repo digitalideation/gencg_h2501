@@ -4,7 +4,7 @@
 
 ### Lesson 4: Drawing Machines
 
-In this lesson, we explored the concept of using code to create tools that generate or transform drawings. Instead of manually controlling every mark, we design systems with their own rules, behaviors, and character - creating "drawing machines" that produce art through algorithmic logic.
+In this lesson, I explored the concept of using code to create tools that generate or transform drawings. Instead of manually controlling every mark, I design systems with their own rules, behaviors, and character - creating "drawing machines" that produce art through algorithmic logic.
 
 **Key Concepts:**
 - Code as a virtual drawing mechanism
