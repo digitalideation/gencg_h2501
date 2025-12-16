@@ -25,7 +25,9 @@ let heartDetected = false;
 let poseNet;
 let poses = [];
 let isRecording = false;
-let frames = [];
+let mediaRecorder;
+let recordedChunks = [];
+let stream;
 let clubLights = [];
 let numLights = 8;
 
@@ -177,10 +179,7 @@ function draw() {
     // CLUB LIGHTS: Procedural animation synced to audio
     drawClubLights();
     
-    // Record frame if recording
-    if (isRecording) {
-        frames.push(get());
-    }
+    // Video recording is handled by MediaRecorder (no frame capture needed)
     
     // Display recording status
     if (isRecording) {
@@ -400,37 +399,115 @@ function keyPressed() {
     // Video recording controls
     if (keyCode === SHIFT) {
         if (!isRecording) {
-            isRecording = true;
-            frames = [];
-            console.log("Recording started...");
+            startVideoRecording();
         }
     }
     
     if (keyCode === ENTER) {
         if (isRecording) {
-            isRecording = false;
-            saveVideo();
-            console.log("Recording stopped. Saving...");
+            stopVideoRecording();
         }
     }
 }
 
-// Save recorded video frames
-function saveVideo() {
-    if (frames.length === 0) {
-        alert("No frames recorded!");
+// Start video recording using MediaRecorder API
+function startVideoRecording() {
+    try {
+        // Get canvas stream
+        stream = canvas.captureStream(30); // 30 FPS
+        
+        // Check for supported MIME types (prefer MP4/MPEG4, fallback to webm)
+        let mimeType = 'video/webm;codecs=vp9';
+        if (MediaRecorder.isTypeSupported('video/mp4')) {
+            mimeType = 'video/mp4';
+        } else if (MediaRecorder.isTypeSupported('video/webm;codecs=vp9')) {
+            mimeType = 'video/webm;codecs=vp9';
+        } else if (MediaRecorder.isTypeSupported('video/webm;codecs=vp8')) {
+            mimeType = 'video/webm;codecs=vp8';
+        } else if (MediaRecorder.isTypeSupported('video/webm')) {
+            mimeType = 'video/webm';
+        }
+        
+        // Create MediaRecorder
+        recordedChunks = [];
+        mediaRecorder = new MediaRecorder(stream, {
+            mimeType: mimeType,
+            videoBitsPerSecond: 2500000 // 2.5 Mbps for good quality
+        });
+        
+        // Handle data available event
+        mediaRecorder.ondataavailable = function(event) {
+            if (event.data.size > 0) {
+                recordedChunks.push(event.data);
+            }
+        };
+        
+        // Handle recording stopped
+        mediaRecorder.onstop = function() {
+            saveVideoFile();
+        };
+        
+        // Start recording
+        mediaRecorder.start(100); // Collect data every 100ms
+        isRecording = true;
+        console.log("Recording started... (Format: " + mimeType + ")");
+    } catch (error) {
+        console.error("Error starting video recording:", error);
+        alert("Failed to start video recording: " + error.message);
+        isRecording = false;
+    }
+}
+
+// Stop video recording
+function stopVideoRecording() {
+    if (mediaRecorder && isRecording) {
+        mediaRecorder.stop();
+        stream.getTracks().forEach(track => track.stop()); // Stop the stream
+        isRecording = false;
+        console.log("Recording stopped. Processing video...");
+    }
+}
+
+// Save recorded video as MPEG4/webm file
+function saveVideoFile() {
+    if (recordedChunks.length === 0) {
+        alert("No video data recorded!");
         return;
     }
     
-    console.log("Saving " + frames.length + " frames...");
+    // Create blob from recorded chunks
+    const blob = new Blob(recordedChunks, {
+        type: mediaRecorder.mimeType
+    });
     
-    // Save frames as individual images (workaround)
-    for (let i = 0; i < frames.length; i++) {
-        frames[i].save('frame_' + nf(i, 4) + '.png');
+    // Create download link
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.style.display = 'none';
+    a.href = url;
+    
+    // Determine file extension based on MIME type
+    let extension = 'webm';
+    if (mediaRecorder.mimeType.includes('mp4')) {
+        extension = 'mp4';
     }
     
-    alert("Video recording complete! " + frames.length + " frames saved as PNG images.\n" +
-          "To create a video, use a tool like FFmpeg or import frames into video editing software.\n" +
-          "For automatic video export, add CCapture.js library.");
+    a.download = 'motion-art-iter4-' + new Date().getTime() + '.' + extension;
+    document.body.appendChild(a);
+    a.click();
+    
+    // Clean up
+    setTimeout(() => {
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }, 100);
+    
+    console.log("Video saved! Format: " + mediaRecorder.mimeType);
+    alert("Video recording complete! File saved as " + a.download);
+    
+    // Reset
+    recordedChunks = [];
+    mediaRecorder = null;
+    stream = null;
 }
 
