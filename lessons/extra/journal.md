@@ -137,7 +137,8 @@ All students must submit their journal to **ILIAS** by the final deadline.
 - **For ILIAS submission:**
   1. Export your entire journal folder as a ZIP file and upload to ILIAS
   2. A document containing the direct link(s) to your online journal
-  3. A short video (5 to 10 minutes walking us through your process and journey)
+  3. A PDF export of your slides (or a direct link to it)
+  4. A short video (5 to 10 minutes walking us through your process and journey) - (optional)
 
 **If using an alternative platform (Observable, Notion, etc.):**
 
@@ -145,7 +146,8 @@ All students must submit their journal to **ILIAS** by the final deadline.
 - **For ILIAS submission:** You must submit:
   1. A PDF export of your complete journal
   2. A document containing the direct link(s) to your online journal
-  3. A short video (5 to 10 minutes walking us through your process and journey)
+  3. A PDF export of your slides (or a direct link to it)
+  4. A short video (5 to 10 minutes walking us through your process and journey) - (optional)
 
 **Submission requirements (all students):**
 
