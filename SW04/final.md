@@ -145,7 +145,7 @@ Complete performance capture system with human silhouette tracking, club lights,
 ---
 
 **Iteration-Specific Controls:**
-- **Iteration 3**: Make heart sign (🫶🏻) with your hands to generate heart particles
+- **Iteration 3**: generate heart particles
 - **Iteration 4**: 
   - **SHIFT**: Start video recording
   - **ENTER**: Stop recording and save
