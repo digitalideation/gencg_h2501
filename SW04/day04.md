@@ -36,6 +36,10 @@ The "machine" follows a simple rule: expand outward in a spiral while adding sli
 <iframe src="../content/day04/01/embed.html" width="100%" height="650" frameborder="no"></iframe>
 {% endraw %}
 
+**Reference:**
+- **Spirograph Art**: This drawing machine is inspired by the classic Spirograph toy, which uses mathematical curves to create intricate patterns. The Spirograph was invented by British engineer Denys Fisher in 1965 and has been a source of inspiration for many generative artists. ([Wikipedia: Spirograph](https://en.wikipedia.org/wiki/Spirograph))
+- **Spiral Generative Art**: Spiral patterns created through parametric equations are common in generative art. Similar approaches can be found in works exploring mathematical curves and organic forms, such as projects using polar coordinates to generate spiral variations.
+
 **Code Output:**
 
 ```javascript
@@ -104,6 +108,10 @@ Each particle "wants" to reach the mouse but has momentum and acceleration limit
 {% raw %}
 <iframe src="../content/day04/02/embed.html" width="100%" height="650" frameborder="no"></iframe>
 {% endraw %}
+
+**Reference:**
+- **Steering Behaviors**: The particle system uses steering behaviors, a concept popularized by Craig Reynolds in his 1987 paper "Flocks, Herds, and Schools: A Distributed Behavioral Model." This technique is widely used in generative art and game development for creating natural-looking movement. ([Wikipedia: Boids](https://en.wikipedia.org/wiki/Boids))
+- **Velocity-Based Drawing**: Using velocity to determine visual properties (color, thickness) is a common technique in generative art, creating dynamic, expressive marks that reflect the motion of the drawing agent. Similar approaches can be seen in works by artists exploring gesture and motion in digital drawing.
 
 **Code Output:**
 
@@ -206,6 +214,10 @@ The double pendulum is famous in physics for exhibiting chaotic behavior - deter
 {% raw %}
 <iframe src="../content/day04/03/embed.html" width="100%" height="650" frameborder="no"></iframe>
 {% endraw %}
+
+**Reference:**
+- **Double Pendulum Physics**: The double pendulum is a classic example of chaotic dynamics in physics. Its unpredictable motion has been explored in numerous artistic and scientific visualizations. The mathematical equations used are based on Lagrangian mechanics, a fundamental approach in classical physics. ([Wikipedia: Double Pendulum](https://en.wikipedia.org/wiki/Double_pendulum))
+- **Chaotic Drawing Machines**: Using chaotic systems as drawing machines is a well-established practice in generative art. Artists have explored various chaotic systems (Lorenz attractor, strange attractors) to create unpredictable, organic patterns. The double pendulum's unique trajectory patterns make it particularly suitable for creating visually interesting drawings.
 
 **Code Output:**
 
@@ -324,6 +336,10 @@ The Lissajous machine demonstrates how mathematical relationships create visual 
 {% raw %}
 <iframe src="../content/day04/04/embed.html" width="100%" height="650" frameborder="no"></iframe>
 {% endraw %}
+
+**Reference:**
+- **Lissajous Curves**: Named after French mathematician Jules Antoine Lissajous (1822-1880), these curves are created by combining two perpendicular harmonic oscillations. They have been used in physics, engineering, and art for over a century. Lissajous figures are commonly seen in oscilloscope displays and have inspired many generative art projects. ([Wikipedia: Lissajous Curve](https://en.wikipedia.org/wiki/Lissajous_curve))
+- **Parametric Drawing Machines**: Using parametric equations to create interactive drawing tools is a common approach in generative art. The relationship between frequency ratios and visual patterns connects mathematics directly to aesthetics, similar to how musical harmony relates to frequency ratios. This approach has been explored by many artists working with algorithmic drawing systems.
 
 **Code Output:**
 

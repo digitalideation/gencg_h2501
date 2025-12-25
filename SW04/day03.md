@@ -33,6 +33,10 @@ This exercise demonstrates how time can be represented digitally with very simpl
 <iframe src="../content/day01/07/embed.html" width="100%" height="350" frameborder="no"></iframe>
 {% endraw %}
 
+**Reference:**
+- **Digital Clock Art**: Minimalist digital clock visualizations are common in generative art and creative coding. The green-on-black aesthetic references classic digital displays and terminal interfaces. Similar approaches can be found in works exploring time as data visualization, such as projects on [OpenProcessing](https://www.openprocessing.org/browse/?q=digital+clock) and creative coding communities.
+- **Time as Generative Material**: The concept of using time as a generative parameter is explored in various generative art projects, where time becomes both subject and medium. This approach connects to broader themes in time-based media art.
+
 ### Exercise 2: Classic Analog Clock (Complex)
 
 This is a more complex visualization representing **cyclical time** through a traditional analog clock design. The code demonstrates advanced p5.js techniques including trigonometry, coordinate transformations, and layered visual elements.
@@ -53,6 +57,10 @@ The analog clock represents time as a cycle rather than a line, emphasizing the 
 <iframe src="../content/day01/08/embed.html" width="100%" height="650" frameborder="no"></iframe>
 {% endraw %}
 
+**Reference:**
+- **Analog Clock Visualizations**: Creating analog clocks using p5.js and similar creative coding tools is a common exercise in generative art education. The use of trigonometry (sin/cos) to position clock hands is a fundamental technique in circular motion visualization. Examples can be found in [Daniel Shiffman's Coding Train tutorials](https://thecodingtrain.com/) and various p5.js clock projects.
+- **Cyclical Time Representation**: The concept of representing time as a cycle rather than linear progression connects to philosophical and artistic explorations of time, similar to works by artists exploring temporal cycles in both analog and digital media.
+
 ### Exercise 3: Clock with Live Grid Pattern Background
 
 This example combines the concepts from previous lessons - merging **time visualization** with **generative grid patterns** to create a dynamic, layered composition. The background continuously animates while the clock displays real-time.
@@ -71,6 +79,10 @@ This visualization demonstrates how time can be represented in multiple layers -
 {% raw %}
 <iframe src="../content/day01/06/embed.html" width="100%" height="650" frameborder="no"></iframe>
 {% endraw %}
+
+**Reference:**
+- **Layered Time Visualization**: Combining multiple time representations (structured clock + organic background) is a technique used in generative art to explore different temporal experiences. Similar approaches can be seen in works that layer different time scales or temporal representations.
+- **Animated Grid Backgrounds**: The technique of using animated, color-shifting grids as backgrounds is common in generative art and motion graphics. The combination of time-based color changes with geometric patterns creates dynamic visual interest, similar to techniques used in data visualization and abstract animation.
 
 ### Reflection
 

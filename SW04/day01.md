@@ -19,8 +19,15 @@ The below generated art cube implements an anaglyph stereoscopic rendering syste
 <iframe src="../content/day01/03/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
+**Reference:**
+- Anaglyph 3D art has been used in generative and digital art to create depth illusions. Examples include works by artists exploring stereoscopic visualization techniques. The red-cyan anaglyph method is a classic approach to 3D visualization, commonly used in both artistic and scientific contexts. ([Wikipedia: Anaglyph 3D](https://en.wikipedia.org/wiki/Anaglyph_3D))
+
 **Procedural Drawing Exercise:** This simple 8x8 grid drawing was generated using **JavaScript** with the **p5.js** library. Inspired by Sol LeWitt's wall drawings, it follows procedural rules: each cell randomly contains either a circle or square, with random colors selected from a limited palette (red, blue, yellow, green, black) and varying sizes. Click anywhere to regenerate a new pattern, demonstrating how algorithms and randomness can create unique visual outcomes from the same set of rules.
 
 {% raw %}
 <iframe src="../content/day01/04/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+
+**Reference:**
+- **Sol LeWitt's Wall Drawings**: This work is directly inspired by Sol LeWitt's conceptual art, particularly his wall drawings that use simple instructions to create complex visual patterns. LeWitt's "Wall Drawing #1180" and similar works demonstrate how procedural rules can generate infinite variations. ([Mass MoCA: Sol LeWitt](https://massmoca.org/sol-lewitt/))
+- **Generative Grid Art**: Similar approaches to grid-based procedural generation can be seen in works by artists like Vera Molnár, who explored systematic variations in geometric patterns using computational methods. ([Wikipedia: Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r))
