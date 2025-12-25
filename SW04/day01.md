@@ -13,6 +13,8 @@ I learned how to set up our GitHub repository, clone it, and create the journal/
 I were introduced to p5.js, prepared our local setup, and learned the academic journal workflow (adding images, code snippets, and reflections).
 Finally, we discussed how to ask for help, pair programming, peer learning, and expectations for sharing content in the class.
 
+The below generated art cube implements an anaglyph stereoscopic rendering system in p5.js, which creates a red–cyan 3D effect by rendering a scene from two slightly offset virtual cameras. The left and right views are combined using a custom shader to simulate depth perception when viewed with anaglyph glasses. I included this example in my journal after finding it online and implementing it with guidance from my professor. The purpose is not originality, but to demonstrate the technical and creative possibilities of generative computer graphics, particularly how mathematical camera manipulation and shaders can expand visual perception beyond standard 2D rendering.
+
 {% raw %}
 <iframe src="../content/day01/03/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
